@@ -1,7 +1,7 @@
 import { Telegraf } from "telegraf";
 
-const bot = new Telegraf("6042837277:AAGeNy0JBAP5zOuWSS9ZpbdqTvWbvSWB98M");
-const CHANEL_ID = "-1001959861349";
+const bot = new Telegraf("<BOT_TOKEN>");
+const CHANEL_ID = "<CHANNEL_ID>";
 
 const messages = [
     "Say - Subhanallohil Aziym 🌙",
