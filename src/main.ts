@@ -6,6 +6,11 @@ CHANEL_ID = String(CHANEL_ID);
 
 const bot = new Telegraf(String(BOT_TOKEN));
 
+bot.command("start", async (ctx) => {
+    await ctx.reply("@daily_reminderuz")
+    await ctx.reply("👨🏻‍💻 Developer: @abdusalomovdev")
+})
+
 const messages = [
     "say:\n <blockquote><b>Subhanallohil Aziym 🌙</b></blockquote>",
     "say:\n <blockquote><b>Bismillah ☝🏻</b></blockquote>",
